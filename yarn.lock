@@ -2,12 +2,6 @@
 # yarn lockfile v1
 
 
-"@types/antd@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@types/antd/-/antd-1.0.0.tgz#f04e2a84efd9ea937366cd3dfbada5d3c949471d"
-  dependencies:
-    antd "*"
-
 "@types/react-dom@^15.5.1":
   version "15.5.1"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-15.5.1.tgz#f3c3e14c682785923c7d64583537df319442dec1"
@@ -78,7 +72,7 @@ ansi-regex@^2.0.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-2.1.1.tgz#c3b33ab5ee360d86e0e628f0468ae7ef27d654df"
 
-antd@*, antd@^2.12.1:
+antd@^2.12.1:
   version "2.12.1"
   resolved "https://registry.yarnpkg.com/antd/-/antd-2.12.1.tgz#e4240d2a42fdbd12a55a85c0ff9cbbc0e7b94cfa"
   dependencies:
