@@ -7,7 +7,7 @@ export interface HelloState { value: string }
 export class Hello extends React.Component<HelloProps, HelloState> {
     constructor(props: HelloProps) {
         super(props)
-        this.setState({value: 'Initial value'})
+        this.state = { value: 'Initial value' }
     }
     render() {
         return <div>
